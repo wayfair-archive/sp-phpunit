@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+  backupGlobals="true"
+  backupStaticAttributes="false"
+  strict="true"
+  verbose="true"
+  convertErrorsToExceptions="true"
+  processIsolation="false"
+  debug="true">
+  <testsuites>
+    <testsuite name="generate_one_large_file">
+      <directory>./generate_one_large_file</directory>
+    </testsuite>
+    <testsuite name="generate_file_larger_test_suites">
+      <directory>./generate_file_larger_test_suites</directory>
+    </testsuite>
+    <testsuite name="generate_many_files_small_test_suites">
+      <directory>./generate_many_files_small_test_suites</directory>
+    </testsuite>
+    <testsuite name="generate_many_sleep">
+      <directory>./generate_many_sleep</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
